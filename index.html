@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Mazhar Hussain</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo3.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+
+
+</head>
+
+
+<body class="index-page">
+
+
+
+
+
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo3.png" alt="">
+        <h1 class="sitename">Mazhar</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+<section id="hero" class="hero">
+  <div class="home-slider">
+    <div class="slider-item">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row align-items-center justify-content-between flex-column-reverse flex-md-row">
+
+          <!-- Left Side: Text -->
+          <div class="col-md-6 text-col d-flex align-items-center justify-content-start">
+            <div class="text-content text-md-start text-center">
+              <span class="subheading">Hello!</span>
+              <h1 class="mb-3">I'm <span>Mazhar Hussain</span></h1>
+              <h2 class="mb-4">A Software Engineer</h2>
+              <p><a href="#contact" class="btn btn-primary py-3 px-4 custom-btn">Hire me</a></p>
+            </div>
+          </div>
+
+          <!-- Right Side: Lottie Animation -->
+          <div class="col-md-6 anim-col d-flex align-items-center justify-content-center">
+            <div class="main-animation">
+              <dotlottie-wc
+                src="https://lottie.host/9b8c6a07-2d76-4b80-bbda-217ec1ac56bf/za3XQ7QZPt.lottie"
+                background="transparent" speed="1" autoplay loop >
+              </dotlottie-wc>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  overflow: hidden;
+  padding: 0;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.03);
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.text-col {
+  padding-right: 50px;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.text-content .subheading {
+  font-size: 20px;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.text-content h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #343a40;
+}
+
+.text-content h1 span {
+  color: #007bff;
+}
+
+.text-content h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+.custom-btn {
+  background: #007bff;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.custom-btn:hover {
+  background: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.3);
+}
+
+/* Lottie Animation */
+.main-animation dotlottie-wc {
+ 
+  width: 800px;
+  height: auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .hero {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .text-col {
+    padding-right: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .main-animation dotlottie-wc {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-animation dotlottie-wc {
+    max-width: 600px;
+  }
+
+  .text-content h1 {
+    font-size: 42px;
+  }
+
+  .text-content h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-animation dotlottie-wc {
+    max-width: 220px;
+  }
+
+  .text-content h1 {
+    font-size: 34px;
+  }
+
+  .text-content h2 {
+    font-size: 18px;
+  }
+
+  .custom-btn {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+}
+</style>
+
+
+
+    <!-- Hero Section -->
+    <!-- <section id="hero" class="section dark-background hero" > -->
+
+ <!-- <img src="assets/img/a-1-bg-black-1.png" alt=""
+     class="img-fluid" style="object-fit: cover; max-height: 100vh; object-position: top;"> -->
+
+
+
+
+   <!-- <div class="text"
+  style="text-align: left; padding-left: 30px; height: 100vh; display: flex; flex-direction: column; justify-content: center;" data-aos="fade-up" data-aos-delay="100">
+  
+  <span class="subheading">Hello!
+<dotlottie-wc src="https://lottie.host/9b8c6a07-2d76-4b80-bbda-217ec1ac56bf/za3XQ7QZPt.lottie" style="width: 300px;height: 300px" speed="1" autoplay loop></dotlottie-wc>
+
+  </span>
+
+  <h1 class="mb-4 mt-3" style="margin-bottom: 1rem; margin-top: 1rem;">I'm <span>Mazhar Hussain</span></h1>
+  <h2 class="mb-4" style="margin-bottom: 1rem;">A Software Engineer</h2>
+
+  <p>
+    <a href="#contact-section" class="btn btn-primary py-3 px-4 custom-btn"
+      style="display: inline-block;">Hire me</a>
+  </p>
+</div>
+
+
+</section> -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/profile-img.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Mazhar Hussain</span></p>
+                <p><strong>Profile: </strong> <span>Full Stack Developer</span></p>
+                <p><strong>Email: </strong> <span>mianmazhar301@gmail.com</span></p>
+                <p><strong>Phone: </strong> <span>+92309-5721065</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>NodeJS</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>React</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="progress">
+                <span class="skill"><span>ASP.NET CORE</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>Medusa-JS</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About Me</h4>
+              <p>
+                I am a passionate MERN Stack Developer and a recent Computer Science graduate from PUCIT. With hands-on
+                experience in both frontend and backend technologies, I’ve contributed to real-world projects involving
+                e-commerce, real-time communication, and full-stack development using React, Node.js, MedusaJS, and
+                MongoDB.
+              </p>
+              <p>
+                I enjoy building scalable and user-friendly applications, and continuously seek opportunities to learn
+                and grow by exploring new frameworks and improving my existing skills. My experience at CodeTuple
+                enabled me to work on production-grade solutions with a focus on clean code and performance.
+              </p>
+              <p>
+                I am a quick learner, team player, and problem-solver, always ready to take on new challenges and make
+                meaningful contributions to the tech world.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Fresh and enthusiastic MERN Stack Developer with a passion for learning and building scalable applications.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row">
+          <!-- Left Column -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Mazhar Hussain</h4>
+              <p><em>Motivated and detail-oriented MERN Stack Developer with hands-on experience in React, Node.js,
+                  MongoDB, and MedusaJS. Proven ability to develop real-time, full-stack applications and work on
+                  e-commerce solutions. Always eager to learn and take on new challenges in tech.</em></p>
+              <ul>
+                <li>Lahore, Punjab, Pakistan</li>
+                <li>+92 309 5721065</li>
+                <li>mianmazhar301@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+
+            <div class="resume-item">
+              <h4>Bachelor of Science in Computer Science</h4>
+              <h5>2020 - 2024</h5>
+              <p><em>Punjab University College of Information Technology (PUCIT), Lahore</em></p>
+              <p>Completed BSCS with hands-on experience in modern technologies and developed a full-fledged Learning
+                Management System as FYP using the MERN Stack.</p>
+
+              <p><strong>Skills & Technologies:</strong></p>
+              <ul style="margin-top: -10px;">
+                <li>JavaScript, Python, C++, C#</li>
+                <li>React.js, Node.js, Express.js</li>
+                <li>MongoDB, MySQL</li>
+                <li>Medusa.js, WebSockets (Socket.IO)</li>
+                <li>ASP.NET MVC</li>
+                <li>Object-Oriented Programming (OOP)</li>
+                <li>RESTful APIs, CRUD Operations</li>
+              </ul>
+            </div>
+
+
+
+
+
+            <div class="resume-item">
+              <h4>Intermediate in Pre-Engineering</h4>
+              <h5>2018 - 2020</h5>
+              <p><em>Punjab Group of Colleges, Mailsi</em></p>
+              <p>Secured 1030/1100 and built a strong foundation in mathematics and problem solving, paving the way for
+                a career in Computer Science.</p>
+
+              <p><strong>Skills Gained:</strong></p>
+              <ul style="margin-top: -10px;">
+                <li>Programming Basics in C</li>
+                <li>Logical Reasoning and Problem Solving</li>
+              </ul>
+            </div>
+
+
+
+
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Associate Software Engineer</h4>
+              <h5>Nov 2024 – Jun 2025</h5>
+              <p><em>CodeTuple, Lahore</em></p>
+              <ul>
+                <li>Worked on e-commerce features using MedusaJS and contributed to both admin and storefront modules.
+                </li>
+                <li>Built reusable components in React for frontend interfaces.</li>
+                <li>Developed RESTful APIs and server-side logic using Node.js and Express.</li>
+                <li>Collaborated with team members to deploy scalable and secure web applications.</li>
+              </ul>
+            </div>
+
+
+
+
+
+            <!-- Right Column -->
+
+
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>MyEduHub – Learning Management System</h4>
+              <ul>
+                <li>Full-stack project developed using MERN Stack.</li>
+                <li>Empowered educators and students with a digital learning environment.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Real-Time Group Chat App</h4>
+              <ul>
+                <li>Built using Node.js, Express, WebSockets, and Vanilla JavaScript.</li>
+                <li>Enabled seamless real-time messaging between multiple users.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Luxury for You – Ecommerce Site</h4>
+              <ul>
+                <li>Developed storefront and admin features using Medusa.js.</li>
+                <li>Implemented wishlist, custom widgets, and product export to CSV.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Pizza Tracking System</h4>
+              <ul>
+                <li>Real-time pizza order tracking using Socket.IO and MongoDB.</li>
+                <li>Used EJS templating for frontend rendering.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>My Rider Console</h4>
+              <ul>
+                <li>CLI-based ride management system developed in C#.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Contact App (Android)</h4>
+              <ul>
+                <li>Created an Android app supporting contact CRUD and dialer integration.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="https://raw.githubusercontent.com/mazharHussain786/Resume/main/Mazhar-Hussain-Resume.pdf" download>
+        <button style="
+      background-color: #ffcc00;
+      color: #000;
+      padding: 12px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    " onmouseover="this.style.backgroundColor='#e6b800'" onmouseout="this.style.backgroundColor='#ffcc00'">
+          Download Resume
+        </button>
+      </a>
+    </div>
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Offering full-stack development services focused on performance, scalability, and user experience.</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h3>Full-Stack Web Development</h3>
+              <p>End-to-end development using the MERN stack (MongoDB, Express, React, Node.js) with responsive UI and
+                secure backend.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-cart-check"></i>
+              </div>
+              <h3>E-commerce Development</h3>
+              <p>Custom storefront and admin panel development using MedusaJS. Features include wishlist, export to CSV,
+                and scalable catalog systems.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-lightning-charge"></i>
+              </div>
+              <h3>Real-Time Applications</h3>
+              <p>Real-time messaging, tracking, and notification systems using WebSockets and Socket.IO — fast and
+                interactive experiences.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-server"></i>
+              </div>
+              <h3>Backend API Development</h3>
+              <p>RESTful API design using Express and Node.js with MongoDB integration and authentication systems.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-phone"></i>
+              </div>
+              <h3>Mobile & Desktop Utility Apps</h3>
+             <p>We develop lightweight utility apps for mobile and desktop platforms using C#, React Native, Kotlin, and more — tailored for diverse productivity and system needs.</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-person-workspace"></i>
+              </div>
+              <h3>Custom Solutions</h3>
+              <p>Need something unique? I build custom solutions tailored to client needs — from LMS systems to order
+                tracking apps.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" style="background-color:  #1a53ff;">
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="stats-item text-center w-100 h-12">
+          <span id="project-counter" style="font-size: 48px; font-weight: bold; color: white;">1+</span>
+          <p style="color: white;">Projects</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+       <p>Below are some of the projects I’ve successfully completed, showcasing our skills, dedication, and creative approach.</p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Web</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Project: MyEduHub -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div style="aspect-ratio: 16 / 9; width: 100%;">
+  <img src="assets/img/LMS.PNG" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+              <div class="portfolio-info">
+                <h4>MyEduHub (LMS)</h4>
+                <p>Learning Management System built with MERN stack for educators and learners.</p>
+                <a href="assets/img/LMS.PNG" data-gallery="portfolio-gallery-product" class="glightbox preview-link"
+                  title="MyEduHub"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/PizzaProject.PNG" class="img-fluid" alt="" style="height: 250px; width: 100%; object-fit: cover;">
+              <div class="portfolio-info">
+                <h4>Pizza Tracking System</h4>
+                <p>Pizza Tracking System built-in NodeJS,MongoDB ,WebSockets and Ejs.</p>
+                <a href="assets/img/PizzaProject.PNG" data-gallery="portfolio-gallery-product" class="glightbox preview-link"
+                  title="Pizza-Tracking-System"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <!-- Project: CompaniesHub -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        <div style="aspect-ratio: 16 / 9; width: 100%;">
+  <img src="assets/img/CompanyHub.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+              <div class="portfolio-info">
+                <h4>CompaniesHub</h4>
+                <p>MERN-based platform for users to share interview experiences and questions by company.</p>
+                <a href="assets/img/CompanyHubD.jpeg" data-gallery="portfolio-gallery-product"
+                  class="glightbox preview-link" title="CompaniesHub"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <!-- Project: Attendance Manager -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+ <div style="aspect-ratio: 16 / 9; width: 100%;">
+  <img src="assets/img/attandanceProject.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+
+              <div class="portfolio-info">
+                <h4>Attendance Manager</h4>
+                <p>MERN-powered real-time student attendance management system with admin dashboard.</p>
+                <a href="assets/img/attandanceProject.jpeg" data-gallery="portfolio-gallery-product"
+                  class="glightbox preview-link" title="Attendance Manager"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/luxury.PNG" class="img-fluid" alt="" style="height: 250px; width: 100%; object-fit: cover;">
+              <div class="portfolio-info">
+                <h4>Luxury For You</h4>
+                <p>E-commerce website using Medusa.js with wishlist, admin panel & CSV product export.</p>
+                <a href="/assets/img/luxury.PNG" data-gallery="portfolio-gallery-product"
+                  class="glightbox preview-link" title="Luxury For You"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <!-- Project: Real-Time Group Chat -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/chatapp.png" class="img-fluid" alt="" style="height: 300px; width: 600px;">
+              <div class="portfolio-info">
+                <h4>Real-Time Group Chat</h4>
+                <p>Multi-user group chat application using Node.js, WebSockets, and Express.</p>
+                <a href="assets/img/chatapp.png" data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                  title="Chat App"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <!-- Project: Contact Manager App -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/contatcApp.PNG" class="img-fluid" alt="" >
+              <div class="portfolio-info">
+                <h4>Contact Manager</h4>
+                <p>Android app with contact CRUD features and built-in call dialing integration.</p>
+                <a href="assets/img/contatcApp.PNG" data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                  title="Contact App"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <!-- Project: Luxury For You -->
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+    <p>Let’s build something amazing together — from concept to creation, we’re ready to turn your ideas into reality</p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+       <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+  <div class="row gy-5">
+
+    <!-- Address -->
+    <div class="col-lg-4">
+      <div class="info-item d-flex align-items-center">
+        <i class="bi bi-geo-alt flex-shrink-0"></i>
+        <div>
+          <h3>Address</h3>
+          <p>Lahore, Punjab, Pakistan</p>
+        </div>
+      </div>
+    </div><!-- End Info Item -->
+
+    <!-- Phone -->
+    <div class="col-lg-4">
+     
+     <div class="info-item d-flex align-items-center" onclick="window.location='tel:+923095721065'" style="cursor: pointer;">
+ <i class="bi bi-telephone flex-shrink-0"></i>
+  <div>
+    <h3>Call Me</h3>
+    <p>+92 309 5721065</p>
+  </div>
+</div>
+    </div><!-- End Info Item -->
+
+    <!-- Email -->
+    <div class="col-lg-4">
+  <a href="mailto:mianmazhar301@gmail.com" style="text-decoration: none; color: inherit;">
+  <div class="info-item d-flex align-items-center" style="cursor: pointer;">
+    <i class="bi bi-envelope flex-shrink-0"></i>
+    <div>
+      <h3>Email</h3>
+      <p>mianmazhar301@gmail.com</p>
+    </div>
+  </div>
+</a>
+
+    </div><!-- End Info Item -->
+
+  </div>
+</div>
+
+<style>
+  ::placeholder {
+    color: #4a4a4a !important;
+    opacity: 1;
+  }
+</style>
+
+     <form class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+     <div class="row gy-4">
+
+    <div class="col-md-6">
+      <input type="text" name="name" class="form-control" id="contact-name"
+        placeholder="Your Name" required=""
+        style="border: 1px solid #66b2ff; padding: 10px; border-radius: 5px; color: #000;">
+    </div>
+
+    <div class="col-md-6">
+      <input type="email" class="form-control" name="email" id="contact-email"
+        placeholder="Your Email" required=""
+        style="border: 1px solid #66b2ff; padding: 10px; border-radius: 5px; color: #000;">
+    </div>
+
+    <div class="col-md-12">
+      <input type="text" class="form-control" name="subject" id="contact-subject"
+        placeholder="Subject" required=""
+        style="border: 1px solid #66b2ff; padding: 10px; border-radius: 5px; color:black;">
+    </div>
+
+    <div class="col-md-12">
+      <textarea class="form-control" name="message" rows="6" id="contact-message"
+        placeholder="Message" required=""
+        style="border: 1px solid #66b2ff; padding: 10px; border-radius: 5px; color: #000;"></textarea>
+    </div>
+
+    <div class="col-md-12 text-center">
+      <button type="submit" id="contactbtn"
+        style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">
+        Send Message
+      </button>
+    </div>
+
+  </div>
+</form>
+
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+<footer id="footer" class="footer accent-background">
+
+  <div class="container">
+    <div class="copyright text-center">
+      <p>© <span>2024</span> <strong class="px-1 sitename">Mazhar Hussain</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://www.linkedin.com/in/mazhar-hussain-617805256" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://facebook.com/mianmazharmh" target="_blank"><i class="bi bi-facebook"></i></a>
+
+    </div>
+
+    <!-- Credits -->
+    <div class="credits text-center mt-2">
+      Designed & Developed by <strong>Mazhar Hussain</strong> |
+      <a href="mailto:mianmazhar301@gmail.com">mianmazhar301@gmail.com</a>
+    </div>
+  </div>
+
+</footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    function animateCounter(id, start, end, duration) {
+      const element = document.getElementById(id);
+      let current = start;
+      const range = end - start;
+      const increment = 1;
+      const stepTime = Math.floor(duration / range);
+
+      // Reset to start
+      element.textContent = start;
+
+      const timer = setInterval(() => {
+        current += increment;
+        element.textContent = current + "+";
+        if (current >= end) {
+          clearInterval(timer);
+        }
+      }, stepTime);
+    }
+
+    // Use IntersectionObserver to trigger counter every time it's visible
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter("project-counter", 1, 12, 2000);
+        }
+      });
+    }, {
+      threshold: 0.6 // 60% visible
+    });
+
+    // Start observing the counter span
+    observer.observe(document.getElementById("project-counter"));
+  </script>
+ <script>
+  const contactBtn = document.getElementById('contactbtn');
+
+
+  contactBtn.addEventListener("mouseover", function () {
+     const name = document.getElementById('contact-name').value;
+    const email = document.getElementById('contact-email').value;
+    const subject = document.getElementById('contact-subject').value;
+    const message = document.getElementById('contact-message').value;
+    if (!name || !email || !subject || !message) {
+      this.style.cursor = "not-allowed";
+    }
+    else {
+      this.style.cursor = "pointer";
+    }
+  });
+
+  contactBtn.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById('contact-name').value;
+    const email = document.getElementById('contact-email').value;
+    const subject = document.getElementById('contact-subject').value;
+    const message = document.getElementById('contact-message').value;
+    console.log(name, email, subject, message);
+
+    if (!name || !email || !subject || !message) {
+      alert("Please fill in all fields.");
+      return;
+    }
+    const mailtoLink = `mailto:mianmazhar301@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\n${message}`
+    )}`;
+
+    window.location.href = mailtoLink;
+  });
+</script>
+
+</body>
+
+
+
+</html>
