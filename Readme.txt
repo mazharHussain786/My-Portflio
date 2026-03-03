@@ -8,7 +8,5 @@ License: https://bootstrapmade.com/license/
 
 
 
-No1050408150589-346bibnqlehfe5s55g6oftbe367jf886.apps.googleusercontent.com
-
-
-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786
+App ID: 874646905577226
+ App Secret: 8f10b2cc6e1202510ed1c4bb231b899c
