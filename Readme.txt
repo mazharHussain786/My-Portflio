@@ -8,9 +8,7 @@ License: https://bootstrapmade.com/license/
 
 
 
-<iframe src="https://mergeblockgame.vercel.app/" frameborder="0"></iframe>
-<iframe src="https://crappybird-master.vercel.app/" frameborder="0"></iframe>
-<iframe src="https://sliding-puzzle-master.vercel.app/" frameborder="0"></iframe>
-<iframe src="https://follow-me-javascript-simon-clone-ma.vercel.app/" frameborder="0"></iframe>
-<iframe src="https://matchingpairs-tau.vercel.app/" frameborder="0"></iframe>
-<iframe src="https://duck-hunt-js-master-one.vercel.app/" frameborder="0"></iframe>
+No1050408150589-346bibnqlehfe5s55g6oftbe367jf886.apps.googleusercontent.com
+
+
+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786
