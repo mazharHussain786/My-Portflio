@@ -8,5 +8,3 @@ License: https://bootstrapmade.com/license/
 
 
 
-App ID: 874646905577226
- App Secret: 8f10b2cc6e1202510ed1c4bb231b899c
